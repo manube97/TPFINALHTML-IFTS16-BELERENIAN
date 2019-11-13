@@ -1,0 +1,52 @@
+/* || general styles */
+
+html {
+  font-family: 'Caviar Dreams', helvetica, arial, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  width: 800px;
+}
+
+h1, h2 {
+  font-family: 'Spellkid';
+  line-height: 80%;
+  text-decoration: underline;
+}
+
+/* header styles */
+
+h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 0%;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+section ul {
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 4.5rem;
+  letter-spacing: -2.6px;
+  margin-bottom: 10px;
+}

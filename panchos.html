@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Mejores Pancherias</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="hot-dog-fastfud-sosiska-eda2.jpg">
+
+  <header>
+
+  </header>
+
+  <section>
+
+  </section>
+
+  <script>
+    var header = document.querySelector('header');
+    var section = document.querySelector('section');
+
+    var request = new XMLHttpRequest();
+    request.open('GET', "mc.json");
+    request.responseType = 'text';
+    request.send();
+    request.onload = function() {
+      var superHeroesText = request.response;
+      var superHeroes = JSON.parse(superHeroesText);
+      populateHeader(superHeroes);
+      mostrarPancherias(superHeroes);
+    }
+
+    function populateHeader(jsonObj) {
+      var myH1 = document.createElement('h1');
+      myH1.textContent = jsonObj['titulo'];
+      header.appendChild(myH1);
+      var myPara = document.createElement('p');
+      myPara.textContent = 'Ciudad: ' + jsonObj['ciudad'] + ', ' + jsonObj['anio'] + ".";
+      header.appendChild(myPara);
+    }
+
+    function mostrarPancherias(jsonObj) {
+      var panchos = jsonObj['pancherias'];
+      for (var i = 0; i < panchos.length; i++) {
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
+        myH2.textContent = panchos[i].nombre;
+        myPara1.textContent = 'Ubicación: ' + panchos[i].ubicacion;
+        myPara2.textContent = 'Abierta desde: ' + panchos[i].edad;
+        myPara3.textContent = 'Especialidades:';
+        var queHacen = panchos[i].especialidades;
+        for (var j = 0; j < queHacen.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = queHacen[j];
+          myList.appendChild(listItem);
+        }
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+        section.appendChild(myArticle);
+      }
+    }
+  </script>
+
+</body>
+
+</html>

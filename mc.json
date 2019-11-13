@@ -1,0 +1,40 @@
+{
+  "titulo": "Las Mejores Pancherias",
+  "ciudad": "Buenos Aires",
+  "anio": 2019,
+  "active": true,
+  "pancherias": [{
+      "nombre": "Pancho 46",
+      "edad": 1981,
+      "ubicacion": "Pres. Arturo Illia 1143, Villa Maipú.",
+      "especialidades": [
+        "Pancho completo",
+        "Pebete de J&Q"
+      ]
+    },
+    {
+      "nombre": "Pancho Gourmet",
+      "edad": 2002,
+      "ubicacion": "José Evaristo Uriburu 726, Once.",
+      "especialidades": [
+        "Armar tu Pancho",
+        "Berenjenas en conserva",
+        "Cebollas caramelizadas",
+        "Pepinos agridulces",
+        "Salsas de queso",
+        "Papas pay"
+      ]
+    },
+    {
+      "nombre": "Herencia de García",
+      "edad": 2006,
+      "ubicacion": "Av. San Martín 1828, Villa Crespo.",
+      "especialidades": [
+        "Primer hot dog horneado del mundo",
+        "Cheddar y Panceta",
+        "Guacamole y Nachos",
+        "Salsa criolla"
+      ]
+    }
+  ]
+}
