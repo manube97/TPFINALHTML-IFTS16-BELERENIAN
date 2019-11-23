@@ -56,7 +56,11 @@
         var myPara3 = document.createElement('p');
         var myList = document.createElement('ul');
         var iframe = document.createElement('iframe');
+        var imagen = document.createElement("img");
         iframe.src = panchos[i].urlMapa;
+        imagen.src = panchos[i].urlImagen;
+        imagen.width = "400";
+        iframe.width = "400";
         myH2.textContent = panchos[i].nombre;
         myPara1.textContent = 'Ubicación: ' + panchos[i].ubicacion;
         myPara2.textContent = 'Abierta desde: ' + panchos[i].edad;
@@ -73,6 +77,7 @@
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myList);
         myArticle.appendChild(iframe);
+        myArticle.appendChild(imagen);
         section.appendChild(myArticle);
       }
     }

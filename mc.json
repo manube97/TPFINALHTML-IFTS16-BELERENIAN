@@ -7,7 +7,9 @@
       "nombre": "Pancho 46",
       "edad": 1981,
       "ubicacion": "Pres. Arturo Illia 1143, Villa Maipú.",
+
       "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.509811270145!2d-58.515724684175794!3d-34.56596466300977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7034fcac623%3A0x1c27b6b4015edc9f!2sPancho%2046!5e0!3m2!1ses-419!2sar!4v1574261657887!5m2!1ses-419!2sar",
+      "urlImagen":"pancho46.jpg",
       "especialidades": [
         "Pancho completo",
         "Pebete de J&Q"
@@ -18,6 +20,7 @@
       "edad": 2002,
       "ubicacion": "José Evaristo Uriburu 726, Once.",
       "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.13289119515!2d-58.401067884174914!3d-34.600800964851985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccafb8ceec413%3A0xb0de8636921f16f2!2sPancho%20Gourmet!5e0!3m2!1ses-419!2sar!4v1574261815929!5m2!1ses-419!2sar",
+      "urlImagen":"panchogourmet.jpg",
       "especialidades": [
         "Armar tu Pancho",
         "Berenjenas en conserva",
@@ -32,6 +35,7 @@
       "edad": 2006,
       "ubicacion": "Av. San Martín 1828, Villa Crespo.",
       "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9393287387925!2d-58.45664828417469!3d-34.605695665111064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0454b69c23%3A0x1f417781fdcf7676!2sPANCHORNO!5e0!3m2!1ses-419!2sar!4v1574261910482!5m2!1ses-419!2sar",
+      "urlImagen":"herenciagarcia.jpg",
       "especialidades": [
         "Primer hot dog horneado del mundo",
         "Cheddar y Panceta",
